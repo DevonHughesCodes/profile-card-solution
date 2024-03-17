@@ -32,10 +32,6 @@ body {
     font-family: "Kumbh Sans", sans-serif;
     font-size: 18px;
     overflow: hidden;
-    background-color: var(--Dark-cyan);
-    background-image: url("./images/bg-pattern-top.svg"), url("./images/bg-pattern-bottom.svg");
-    background-repeat: no-repeat, no-repeat;
-    background-position: right 52vw bottom 35vh, left 48vw top 52vh;
 }
 
 .container {
@@ -125,7 +121,7 @@ hr {
     padding-bottom: 5px;
 }
 
-/* .bg-top {
+.bg-top {
     position: absolute;
     top: -50%;
     left: -1%;
@@ -137,7 +133,7 @@ hr {
     bottom: -50%;
     right: -4%;
     z-index: -1;
-} */
+}
 
 .attribution {
     font-size: 15px;
