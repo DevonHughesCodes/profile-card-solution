@@ -31,6 +31,9 @@ body {
     background-color: var(--dark-cyan);
     font-family: "Kumbh Sans", sans-serif;
     font-size: 18px;
+    background-image: url('./images/bg-pattern-top.svg'), url('./images/bg-pattern-bottom.svg');
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 52vw bottom 35vh, left 48vw top 52vh;
     overflow: hidden;
 }
 
@@ -168,7 +171,7 @@ hr {
     .card-body-content {
         height: 120px;
     }
-
+    /*
     .bg-top {
         width: 150%;
         position: absolute;
@@ -184,7 +187,7 @@ hr {
         left: 40%;
         z-index: -1;
     }
-
+    */
     .attribution {
         font-size: 12px;
         text-align: center;
